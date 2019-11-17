@@ -1,8 +1,6 @@
 body{
   background-image: url(milky-way.jpg);
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size:auto;
+  background-size: 100%;
   color: white;
   
 }
