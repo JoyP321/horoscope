@@ -8,7 +8,11 @@ def render_main():
 
 @app.route("/p1")
 def render_page1():
-  return render_template('page1.html')
+  return render_template('page1.html', horoscope = "")
+
+@app.route("/response")
+def render_page1():
+  return render_template('page1.html', horoscope = "hey")
 
 if __name__=="__main__":
   app.run(debug=False)
