@@ -1,7 +1,6 @@
 from flask import Flask, url_for, render_template, request
 import os
 import json
-import random
 import datetime
 app = Flask(__name__)
 
@@ -27,9 +26,8 @@ def render_page1_response():
 
 
 def get_horoscope(fortunes, sign):
-  val = 1+ int(random.random() *6)
   date = datetime.datetime.now()
-  return "Hey " + sign + "! Your horoscope is: \n\t" +fortunes[sign][str(val)] + date.strftime("%A")
+  return "Hey " + sign + "! Your " + date.strftime("%A")+ " horoscope is: \n" +fortunes[sign][ date.strftime("%A")] 
   
 
 if __name__=="__main__":
