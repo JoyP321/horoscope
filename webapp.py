@@ -26,7 +26,8 @@ def render_page1_response():
 
 
 def get_horoscope(fortunes, sign):
-  return fortunes['Aries']['1']
+  val = 1+(random.random() *6)
+  return fortunes['Aries'][str(val)]
   
 
 if __name__=="__main__":
