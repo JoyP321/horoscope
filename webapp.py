@@ -24,4 +24,4 @@ def render_page1_response():
   return render_template('page1.html', horoscope = sign)
 
 if __name__=="__main__":
-  app.run(debug=False)
+  app.run(debug=True)
