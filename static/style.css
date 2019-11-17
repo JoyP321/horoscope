@@ -1,8 +1,13 @@
 body{
-  color: white;
+  
   background-image: url(milky-way.jpg);
 }
 
 h1{
+  color: white;
   font-size: 50px;
+}
+
+p{
+  color: white;
 }
