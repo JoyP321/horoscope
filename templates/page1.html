@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+{% set active_page = "page1"%}
+{% block title %}Page 1{% endblock %}
+
+{% block content %}
+  <h1>Select Your Zodiac Sign</h1>
+  <form action='/response'>
+    <feildset>
+      <br>
+      <select>
+        <option value="Aries">Aries</option>
+        <option value="Leo">Leo</option>
+        <option value="Cancer">Cancer</option>
+        <option value="Pisces">Pisces</option>
+        <option value="Scorpio">Scorpio</option>
+        <option value="Taurus">Taurus</option>
+        <option value="Sagittarius">Sagittarius</option>
+        <option value="Gemini">Audi</option>
+        <option value="Virgo">Audi</option>
+        <option value="Libra">Audi</option>
+        <option value="Capricorn">Audi</option>
+        <option value="Aquarius">Audi</option>
+      </select>
+      <input type="submit">
+    </feildset>
+  </form> 
+
+{% endblock %}
+© 2019 GitHub, Inc.
