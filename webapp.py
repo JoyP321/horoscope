@@ -12,7 +12,7 @@ def render_page1():
 
 
 @app.route("/response")
-def render_page1():
+def render_page1_response():
 
   return render_template('page1.html', horoscope = "sign")
 
