@@ -22,7 +22,7 @@ def render_page1_response():
   with open('horoscope_data.json') as horoscope_data:
     fortunes = json.load(horoscope_data)
   sign = request.args['sign']
-  return render_template('page1.html', horoscope = sign)
+  return render_template('page1.html', horoscope = get_horoscope(fortunes, sign))
 
 
 def get_horoscope(fortunes, sign):
