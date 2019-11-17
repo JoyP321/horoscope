@@ -20,14 +20,13 @@ body{
 
 .b2h1{
     padding-left: 5%;
-    font-size: 100px;
+    font-size: 90px;
     color: #343A40;
     text-align: right;
 }
 
 .b2p{
-    padding-left: 5%;
-    width: 60%;
+    padding-left: 35%;
     color: #343A40;
     text-align: right;
 }
