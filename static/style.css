@@ -17,5 +17,6 @@ p{
 }
 
 .jumbotron{
-  color: dark;
+  color: #343A40;
+  height: 400px;
 }
