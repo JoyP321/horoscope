@@ -27,7 +27,7 @@ def render_page1_response():
 
 def get_horoscope(fortunes, sign):
   date = datetime.datetime.now()
-  return "Hey " + sign + "! Your " + date.strftime("%A")+ " horoscope is: \n" +fortunes[sign][ date.strftime("%A")] 
+  return "Hey " + sign + "! Your " + date.strftime("%A")+ " horoscope is: \n" +fortunes[sign]["Monday"] 
   
 
 if __name__=="__main__":
