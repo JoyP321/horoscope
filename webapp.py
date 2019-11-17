@@ -13,8 +13,8 @@ def render_page1():
 
 @app.route("/response")
 def render_page1_response():
-
-  return render_template('page1.html', horoscope = "sign")
+  sign = request.args['sign']
+  return render_template('page1.html', horoscope = sign)
 
 if __name__=="__main__":
   app.run(debug=False)
