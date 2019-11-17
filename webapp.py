@@ -1,6 +1,7 @@
 from flask import Flask, url_for, render_template, request
 import os
 import json
+import random
 app = Flask(__name__)
 
 @app.route("/")
@@ -24,7 +25,9 @@ def render_page1_response():
   return render_template('page1.html', horoscope = sign)
 
 
-
+def get_horoscope(fortunes, sign):
+  randomVal = 1+random.random()*6
+  return fortunes[sign][randomVal]
   
 
 if __name__=="__main__":
