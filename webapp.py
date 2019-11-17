@@ -27,7 +27,7 @@ def render_page1_response():
 
 def get_horoscope(fortunes, sign):
   val = 1+ int(random.random() *6)
-  return fortunes[sign][str(val)]
+  return "Hey " + sign + "! Your horoscope is: \n\t" +fortunes[sign][str(val)]
   
 
 if __name__=="__main__":
