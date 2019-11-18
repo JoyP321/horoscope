@@ -43,6 +43,7 @@ body{
 }
 
 img{
+  float: left;
   padding: 10%;
-  width: 80%;
+  width: 40%;
 }
