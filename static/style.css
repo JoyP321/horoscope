@@ -43,6 +43,8 @@ body{
 }
 
 img{
-  padding: 5%;
-  width: 40%;
+  padding: 10%;
+  width: 30%;
+  border: white;
+  border-width: 10px;
 }
