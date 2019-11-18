@@ -55,25 +55,4 @@ img{
   width: 50%;
 }
 
-.dropDownButton{
-  background-color: white;
-  color: #343A40;
-  padding: 50%;
-  font-size: 25px;
-  border: none;
-  cursor: pointer;
-  width: 100px;
-  height: 50px;
-  border-radius: 0px;
-}
 
-.option{
-  background-color: white;
-  color: #343A40;
-  font-size: 25px;
-  border: none;
-  cursor: pointer;
-  width: 100px;
-  height: 50px;
-  border-radius: 0px;
-}
