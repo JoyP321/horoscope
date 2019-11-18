@@ -19,7 +19,7 @@ body{
 }
 
 .b2h1{
-    padding-left: 5%;
+    padding-right: 5%;
     font-size: 90px;
     color: #343A40;
     text-align: right;
@@ -27,6 +27,7 @@ body{
 
 .b2p{
     padding-left: 35%;
+    padding-right: 5%;
     color: #343A40;
     text-align: right;
 }
