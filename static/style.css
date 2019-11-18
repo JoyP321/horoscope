@@ -44,7 +44,6 @@ body{
 
 img{
   float: left;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding:10%;
   width: 50%;
 }
