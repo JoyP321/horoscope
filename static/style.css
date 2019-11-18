@@ -38,6 +38,11 @@ body{
     color: white;
 }
 
+.b3p{
+    color: #343A40;
+    text-align: center;
+}
+
 .jumbotron{
   height: 400px;
 }
