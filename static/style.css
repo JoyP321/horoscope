@@ -41,3 +41,8 @@ body{
 .jumbotron{
   height: 400px;
 }
+
+img{
+  padding: 5%;
+  width: 40%;
+}
