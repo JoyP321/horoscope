@@ -52,3 +52,12 @@ img{
   padding:10%;
   width: 50%;
 }
+
+.dropDownButton{
+  background-color: white;
+  color: #343A40;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
